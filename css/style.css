@@ -1,0 +1,684 @@
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 71px 60px 3px 60px;
+  margin-top: 70px;
+ height: fit-content;
+  /* margin-bottom: 260px; */
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn,
+.btn-large,
+.btn-small {
+    float: right;
+    margin-top: 15px;
+}
+.btn{
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a.brand-logo {
+    color: darkslategrey;
+}
+
+.card {
+    float: left;
+}
+
+.card .card-content {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+
+a.brand-text:hover {
+    color: red;
+    background-color: #ffab40;
+    border: 2px solid #ffab40;
+    border-radius: 6px;
+    padding: 0px 2px;
+}
+
+
+/*header */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #d4d4d4;
+    padding: 20px 10px; 
+    z-index: 999999999;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+
+.date {
+    top: 3px;
+    left: 21px;
+    position: absolute;
+    color: cornflowerblue;
+}
+
+
+/*hesder end */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(1 0 0 / 69%);
+  margin: 10px;
+  padding: 10px 4px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: red;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+/* heder begin */
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-right {
+  display: inline-flex; 
+     float: right;
+}
+marquee {
+    color: #84999e;
+  width: 50%;
+  position: absolute;
+  top: 15px;
+  font-size: 35px;
+  left: 280px;
+}
+/* heder begin */
+
+
+/* Style inputs */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+} */
+
+/* input[type=submit]:hover {
+    background-color: #45a049;
+} */
+
+
+/* Style the container/contact section */
+
+
+
+
+/* Create two columns that float next to eachother */
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* FOOTER */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+body {
+    font: 16px/1.6 Arial, sans-serif;
+}
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+   
+}
+
+.footer-distributed {
+  position: relative;
+  z-index: 999999;
+  background-color: #596963;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 25px 50px 25px 50px;
+  margin-top:138px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+/* The company logo */
+
+.footer-distributed .footer-left img {
+    width: 30%;
+}
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: red;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* Here is the code for Responsive Footer */
+
+
+/* You can remove below code if you don't want Footer to be responsive */
+
+.column-movie {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.column-movie {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+@media (max-width: 880px) {
+    .column-movie {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        padding: 20px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+
+/* slider begin */
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 97%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 23px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* slider end */
+
+.category {
+    display: grid;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 3px;
+}
+
+.movie b {
+    font-size: 24px;
+    color: red;
+}
+
+.movie p {
+    font-size: 18px;
+}
+
+.movie h1 {border-radius: 30;
+    box-shadow: 7px,3px,5px;
+    font-weight: bold;
+}
+
+.movie p>a {
+    color: red;
+    text-decoration: none;
+}
+
+
+/* //movieUplaod */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+} */
+.center-align {
+    padding: 2px;
+    text-align: center;
+}
+.card a img:hover{
+ width:1000%
+}
+
+a{    
+  text-decoration: none;
+  
+  }
+  .btn-group>a>input{
+    font-size: 1em;
+    padding: 10px;color: #fff;border-radius: 4px;text-decoration: none;cursor: pointer;transition: all 0.3s ease-out;margin: 3px;height: 42px;
+  }
+
+  
+  /* table begin */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #787878;
+    color: #fff;
+  }
+  tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+  tr:nth-child(even) {
+    background-color: white;
+    }
+   /* table end */
+
+
+
+   /*buttons*/
+   /* alert */
+   .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+  }
+  
+  .alert.success {background-color: #04AA6D;}
+  .alert.info {background-color: #2196F3;}
+  .alert.warning {background-color: #ff9800;}
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  #d:hover{
+ background-color:green;
+  }
